@@ -17,20 +17,20 @@ h1{
 }
 
 .menu{
-	padding-top: 50px;
-	padding-bottom: 65px;
-	width: 100%;
+  padding-top: 50px;
+  padding-bottom: 65px;
+  width: 100%;
 }
 
 .menu-item{
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
-	line-height: 20px;
+  line-height: 20px;
   color: #f2f2f2;
-	padding: 0px;
-	margin: 0px;
-	display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
 }
 
 .menu-item a{
@@ -46,13 +46,13 @@ h1{
 }
 
 #projects{
-	display: table;
-	padding: 30px 0px 0px 0px;
+  display: table;
+  padding: 30px 0px 0px 0px;
   width: 100%;
 }
 
 ul#project-list{
-	display: table-row;
+  display: table-row;
 }
 
 ul#project-list li{
@@ -64,26 +64,26 @@ ul#project-list li{
   font-size: 12px;
   border-radius: 3px; 
   line-height: 30px;
-	display: table-cell;
-	min-width: 160px;
-	text-align: center;
+  display: table-cell;
+  min-width: 160px;
+  text-align: center;
 }
 
 ul#project-list li a{
-	text-decoration: none;
-	color: #000000;
-	
+  text-decoration: none;
+  color: #000000;
+  
 }
 
 
 ul#project-list li.spacer{
-	display: table-cell;
-	height: 30px;
-	min-width: 20px;
+  display: table-cell;
+  height: 30px;
+  min-width: 20px;
   background: #000000;
-	background-image: none;
-	background-image: none;
-	-moz-box-shadow: none;
+  background-image: none;
+  background-image: none;
+  -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -94,8 +94,8 @@ ul#project-list li.blank{
 }
 
 .right{
-	float: right;
-	padding-left: 40px;
+  float: right;
+  padding-left: 40px;
 }
 .sub-heading{
   font-family: 'Open Sans', sans-serif;
@@ -106,35 +106,39 @@ ul#project-list li.blank{
 }
 
 .project-block{
-	width: 100%;
-	padding: 30px 0px 70px 0px;
+  width: 100%;
+  padding: 30px 0px 70px 0px;
 }
 
 .project-block p.title{
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 300;
   font-size: 32px;
-	color: #f2f2f2;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
+  color: #f2f2f2;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .project-block p.about{
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 12px;
-	color: #f2f2f2;
-	line-height: 16px;
-	margin-top: 5px;
-	padding: 0px;
+  color: #f2f2f2;
+  line-height: 16px;
+  margin-top: 5px;
+  padding: 0px;
 }
 
 .project-block img{
-	border: 3px solid #f2f2f2;
-	-moz-box-shadow: 0px 2px 3px #000000;
+  border: 3px solid #f2f2f2;
+  -moz-box-shadow: 0px 2px 3px #000000;
   -webkit-box-shadow: 0px 2px 3px #000000;
-	float:right;
-	margin-left: 20px;
+  float:right;
+  margin-left: 20px;
+}
+
+.project-block a{
+  color: #c1ea00;
 }
 
 .list{
