@@ -1,0 +1,24 @@
+{
+  "name": "galaxy-zoo-authors",
+  "version": "0.0.1",
+  "description": "Epic list of volunteer names for GZ",
+  "main": "public/authors.html",
+  "private": true,
+  "scripts": {
+    "start": "browser-sync start --files 'public/**/*' --server public",
+    "deploy": "publisssh ./public zooniverse-static/authors.galaxyzoo.org --remove"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zooniverse/Galaxy-Zoo-Authors.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/zooniverse/Galaxy-Zoo-Authors/issues"
+  },
+  "homepage": "https://github.com/zooniverse/Galaxy-Zoo-Authors",
+  "dependencies": {
+    "browser-sync": "^2.11.0",
+    "publisssh": "^1.0.1"
+  }
+}
